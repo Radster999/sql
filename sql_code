@@ -1,0 +1,77 @@
+- Creating tables and adding extra columns to the tables
+  Some of the columns names have been renamed for consistency -
+
+CREATE TABLE players (
+    pid VARCHAR(10) PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    nationality VARCHAR(50),
+    dob DATE
+);
+
+CREATE TABLE player_stats (
+    pid VARCHAR(10),
+    team_id VARCHAR(10),
+    shirt_num INT,
+    position VARCHAR(20),
+    height INT,
+    weight INT,
+    foot CHAR CHECK (foot = 'R' OR foot = 'L')
+);
+
+CREATE TABLE teams (
+    team_id VARCHAR(10) PRIMARY KEY,
+    team_name VARCHAR(50),
+    country VARCHAR(50),
+    stadium VARCHAR(10)
+);
+
+CREATE TABLE managers (
+    mid VARCHAR(10) PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    nationality VARCHAR(50),
+    dob DATE,
+    team VARCHAR(10)
+);
+
+CREATE TABLE stadiums (
+    sid VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(50),
+    city VARCHAR(50),
+    country VARCHAR(50),
+    capacity INT
+);
+
+CREATE TABLE tournaments (
+    tour_id VARCHAR(10) PRIMARY KEY,
+    tour_name VARCHAR(50),
+    season VARCHAR(10),
+    location VARCHAR(50)
+);
+
+CREATE TABLE matches (
+    match_id VARCHAR(10) PRIMARY KEY,
+    tour VARCHAR(10),
+    date_time TIMESTAMP,
+    home_team VARCHAR(10),
+    away_team VARCHAR(10),
+    stadium VARCHAR(10)
+);
+
+CREATE TABLE match_report (
+    match_id VARCHAR(10),
+    pso INT CHECK (pso = 0 OR pso = 1),
+    ht_score INT,
+    at_score INT,
+    attendance INT
+);
+
+CREATE TABLE goals (
+    goal_id VARCHAR(10) PRIMARY KEY,
+    match_id VARCHAR(10),
+    pid VARCHAR(10),
+    duration INT,
+    assist VARCHAR(10),
+    goal_desc VARCHAR(25)
+);
