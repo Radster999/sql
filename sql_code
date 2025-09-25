@@ -75,3 +75,16 @@ CREATE TABLE goals (
     assist VARCHAR(10),
     goal_desc VARCHAR(25)
 );
+
+ALTER TABLE matches ADD CONSTRAINT matches_tour_foreign FOREIGN KEY (tour) REFERENCES tournaments (tour_id);
+ALTER TABLE matches ADD CONSTRAINT matches_home_team_foreign FOREIGN KEY (home_team) REFERENCES teams (team_id);
+ALTER TABLE matches ADD CONSTRAINT matches_away_team_foreign FOREIGN KEY (away_team) REFERENCES teams (team_id);
+ALTER TABLE matches ADD CONSTRAINT matches_stadium_foreign FOREIGN KEY (stadium) REFERENCES stadiums (sid);
+ALTER TABLE teams ADD CONSTRAINT teams_stadium_id_foreign FOREIGN KEY (stadium) REFERENCES stadiums (sid);
+ALTER TABLE goals ADD CONSTRAINT goals_match_id_foreign FOREIGN KEY (match_id) REFERENCES matches (match_id);
+ALTER TABLE goals ADD CONSTRAINT goals_pid_foreign FOREIGN KEY (pid) REFERENCES players (pid);
+ALTER TABLE goals ADD CONSTRAINT goals_assist_foreign FOREIGN KEY (assist) REFERENCES players (pid);
+ALTER TABLE match_report ADD CONSTRAINT match_report_match_id_foreign FOREIGN KEY (match_id) REFERENCES matches (match_id);
+ALTER TABLE player_stats ADD CONSTRAINT player_stats_pid_foreign FOREIGN KEY (pid) REFERENCES players (pid);
+ALTER TABLE player_stats ADD CONSTRAINT player_stats_team_id_foreign FOREIGN KEY (team_id) REFERENCES teams (team_id);
+ALTER TABLE managers ADD CONSTRAINT managers_team_foreign FOREIGN KEY (team) REFERENCES teams (team_id);
