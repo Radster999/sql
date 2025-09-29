@@ -6,8 +6,10 @@ In this project, I will be practising inserting and querying data in business si
 
 Below will be all the queries and visuals of their outcome, and I will link the raw code on the [SQL-code]([url](https://github.com/Radster999/sql/blob/main/sql_code)) page.
 
+
 1. We want to send out a promotional email to our existing customers. Pull the first and last names of every customer and their email address.
 <img width="677" height="487" alt="qn1" src="https://github.com/user-attachments/assets/f5111c32-e21f-4466-add7-e43e323a2ab8" />
+
 
 2. We have a visitor who isn't from the USA. They're from Australia, and so they're not familiar with the Motion Picture Association of America's movie rating system, such as PG, PG, 13, R, etc..
 So we need to know what types of ratings we have in our database.
