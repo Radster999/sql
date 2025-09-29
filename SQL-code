@@ -3,3 +3,7 @@ Here are the solutions to the queries numbered in the README file:
 1. 
 SELECT first_name, last_name, email
 FROM customer;
+
+2.
+SELECT DISTINCT rating 
+FROM film;
