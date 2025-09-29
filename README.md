@@ -4,7 +4,7 @@ I am using PostgreSQL 17 on pgAdmin 9.5 to access a database from the file, dvdr
 
 In this project, I will be practising inserting and querying data in business situations using SQL.
 
-Below will be all the queries and visuals of their outcome, and I will link the raw code on the [SQL-code]([url](https://github.com/Radster999/sql/blob/main/sql_code)) page.
+Below will be all the queries and visuals of their outcome, and I will link the raw code on the [SQL-code]([url](https://github.com/Radster999/sql/blob/main/SQL-code)) page.
 
 
 1. We want to send out a promotional email to our existing customers. Pull the first and last names of every customer and their email address.
