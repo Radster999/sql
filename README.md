@@ -13,3 +13,4 @@ We want to send out a promotional email to our existing customers. Pull the firs
 2. We have a visitor who isn't from the USA. They're from Australia, and so they're not familiar with the Motion Picture Association of America's movie rating system such as PG, PG, 13, R, etc..
 So we need to know what types of ratings we have in our database.
 What ratings do we have available?
+<img width="413" height="431" alt="qn2" src="https://github.com/user-attachments/assets/8e9446c2-290a-4c6d-90bf-d760ab2b9aa4" />
