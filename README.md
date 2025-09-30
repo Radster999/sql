@@ -15,3 +15,9 @@ Below will be all the queries and visuals of their outcome, and I will link the 
 So we need to know what types of ratings we have in our database.
 What ratings do we have available?
 <img width="413" height="431" alt="qn2" src="https://github.com/user-attachments/assets/8e9446c2-290a-4c6d-90bf-d760ab2b9aa4" />
+
+
+3. We want to find out who our first 10 customers were and reward them. What are the IDs of these customers?
+<img width="483" height="691" alt="qn3" src="https://github.com/user-attachments/assets/0da57b61-7a3c-47f5-abe5-4d8c600eab2f" />
+
+
