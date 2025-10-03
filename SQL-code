@@ -54,3 +54,16 @@ SELECT rating, ROUND(AVG(replacement_cost))
 FROM film
 GROUP BY rating;
 
+12.
+SELECT customer_id, COUNT(*)
+FROM payment
+GROUP BY customer_id
+HAVING COUNT(*)>=40;
+
+13.
+SELECT customer_id, SUM(amount)
+FROM payment
+WHERE staff_id='2'
+GROUP BY customer_id
+HAVING sum(amount)>100
+
