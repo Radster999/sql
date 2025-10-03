@@ -51,3 +51,13 @@ What ratings do we have available?
 
 11. Corporate headquarters is conducting a study on the relationship between replacement cost and the movie's MPAA rating. What is the average replacement cost per MPAA rating?
 <img width="810" height="554" alt="qn11" src="https://github.com/user-attachments/assets/32c1fefb-cbe3-4db2-aa00-d45193295503" />
+
+
+12. We want to launch a platinum service for our most loyal customers. To qualify, you need to have at least 40 transactions. Which customer IDs are eligible?
+<img width="572" height="512" alt="qn12" src="https://github.com/user-attachments/assets/f4cc8136-ece6-4c2a-af6f-653dacbba711" />
+
+
+13. What are the customer_id's of the customers who have spent over $100 with staff_id member 2?
+<img width="618" height="541" alt="qn13" src="https://github.com/user-attachments/assets/2d6677c3-86e9-4b9f-bc0b-74eda40c2667" />
+
+
