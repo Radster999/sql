@@ -61,3 +61,11 @@ What ratings do we have available?
 <img width="618" height="541" alt="qn13" src="https://github.com/user-attachments/assets/2d6677c3-86e9-4b9f-bc0b-74eda40c2667" />
 
 
+14. Let's imagine that a California sales tax law has changed, and we need to alert our customers via email. What are the emails of the customers who live in California?
+<img width="835" height="728" alt="qn14" src="https://github.com/user-attachments/assets/7fc2e758-c646-4594-b650-e3b0f32b6cfb" />
+
+
+15. A customer wants to know which movies Nick Wahlberg has been in. List all movies featuring Nick Wahlberg.
+<img width="796" height="837" alt="qn15" src="https://github.com/user-attachments/assets/05788ade-c814-41ec-a2a1-138ec85edf8d" />
+
+
