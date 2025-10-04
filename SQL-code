@@ -4,11 +4,9 @@ Here are the solutions to the queries numbered in the README file:
 SELECT first_name, last_name, email
 FROM customer;
 
-
 2.
 SELECT DISTINCT rating 
 FROM film;
-
 
 3. 
 SELECT customer_id 
